@@ -4,7 +4,7 @@ My First Next.js App Router App Sample
 
 # 参考記事
 
-こちらのチュートリアルを参考にしています。
+こちらのチュートリアルを参考にしています。今後第 2 回も出るらしい
 
 - https://codezine.jp/article/detail/17925?p=2
 

@@ -1,6 +1,9 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
+// そのフォルダ階層で表示すべきページが定義されている
+// app フォルダ内のフォルダ階層は、URL上のパスを表しており、その中に page.js という名前でファイルが定義されていると、そこからデフォルトエクスポートされたコンポーネントを画面に表示する
+// app/page.js は app フォルダ内でいうとルートフォルダにあたるので、URLとしてはルート / のコンテンツを表すことになる
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -15,7 +18,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -91,5 +94,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
